@@ -92,6 +92,7 @@ class Bot:
         print(login)
         return login
 
+
 run = True
 while combo:
     while run:
@@ -120,7 +121,7 @@ while combo:
                         print(f"[SUCCESS] Le Combo '{combo[0]}' est bon. Proxy utilisé '{proxies[0]}'")
                     else:
                         print(f"[SUCCESS] Le Combo '{combo[0]}' est bon. Proxy utilisé 'Your PC")
-                        run=False
+                        run = False
                     print("------------------------------------------------------------------------------------------")
                 else:
                     print("----------------------------------------")
