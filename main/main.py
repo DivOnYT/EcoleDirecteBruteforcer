@@ -120,6 +120,7 @@ while combo:
                         print(f"[SUCCESS] Le Combo '{combo[0]}' est bon. Proxy utilisé '{proxies[0]}'")
                     else:
                         print(f"[SUCCESS] Le Combo '{combo[0]}' est bon. Proxy utilisé 'Your PC")
+                        run=False
                     print("------------------------------------------------------------------------------------------")
                 else:
                     print("----------------------------------------")
